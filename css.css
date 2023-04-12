@@ -1,0 +1,221 @@
+#about-section {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    transition: 1s;
+  }
+  #about-section.show {
+    display: block;
+    transform: translate(-50%, 50%);
+  }
+        #about-text {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+        body {
+    height: 300px;
+    overflow: hidden;
+  }
+        #about-section {
+    color: white;
+  }
+        #about-section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+        #login-form label img {
+    position: relative;
+    top: -3px;
+  }
+        #login-form label img {
+    vertical-align: bottom;
+  }
+        #login-form label img {
+    width: 20px;
+  }
+        #login-form input[type="submit"]:hover {
+    background-color: #ffffff;
+  }
+        #login-form label {
+    text-align: center; /* Centra el texto dentro de los elementos <label> */
+    display: block;
+  }
+        #login-form {
+    width: 300px; /* Controla el ancho del elemento */
+    border-radius: 10px; /* Agrega bordes redondeados al elemento */
+  }
+        #login-form {
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+      0 0 10px rgb(255, 255, 255),
+      0 0 20px rgb(255, 255, 255),
+      0 0 30px rgb(255, 255, 255),
+      0 0 40px rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5); /* Agrega un color de fondo semitransparente */
+    backdrop-filter: blur(10px); /* Aplica un efecto de desenfoque al área detrás del elemento */
+  }
+         #login-form label,
+        #login-form input {
+          margin: 10px 0; /* Agrega margen arriba y abajo de los elementos */
+        }
+        #login-form {
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+      0 0 10px rgb(255, 255, 255),
+      0 0 20px rgb(255, 255, 255),
+      0 0 30px rgb(255, 255, 255),
+      0 0 40px rgb(255, 255, 255);
+  }
+        .menu {
+    position: relative;
+    top: -30px; /* Cambia este valor para mover el elemento hacia arriba */
+  }
+        #login-form form { text-align: center !important; }
+        #login-form form {
+          text-align: center;
+        }
+        #login-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+        #login-form {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: transparent;
+          border: 1px solid white;
+        }
+        #login-form label {
+          text-align: center;
+          display: block;
+        }
+        #login-form i {
+          margin-right: 8px;
+        }
+        body {
+          margin: 0;
+          height: 100vh;
+          background-image: url('fotos/luna.jpg');
+          background-size: cover;
+          background-position: center;
+          font-family: 'Alkatra', sans-serif;
+        }
+  
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: auto;
+        }
+        .logo {
+          height: 250px;
+        }
+        .menu {
+          display: flex;
+        }
+        .menu button {
+          background-color: transparent;
+          color: white;
+          padding: 15px 25px;
+          margin-left: 10px;
+          border: 2px solid #ffffff;
+          cursor: pointer;
+        }
+        .menu button:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+  .login-button:hover {
+     border-color: #ffffff;
+  }
+  .menu button:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
+  }.menu button {
+    font-size: 15px;
+  } button{
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+    0 0 25px rgb(255, 255, 255);
+  }
+  button:hover{
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+  0 0 10px rgb(255, 255, 255),
+  0 0 20px rgb(255, 255, 255),
+  0 0 30px rgb(255, 255, 255),
+  0 0 40px rgb(255, 255, 255);
+  }
+  #login-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  .shooting-star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: white;
+  animation: shooting-star 5s linear infinite;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white;
+}
+@keyframes shooting-star {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(500px, -500px);
+    opacity: 0;
+  }
+}
+#about-section {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#about-section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid white;
+}
+#about-section {
+  box-shadow: 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255),
+    0 0 20px rgb(255, 255, 255),
+    0 0 30px rgb(255, 255, 255),
+    0 0 40px rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.301); /* Agrega un color de fondo semitransparente */
+  backdrop-filter: blur(10px); /* Aplica un efecto de desenfoque al área detrás del elemento */
+}
+#about-section {
+  border-radius: 50%;
+}
+#about-section {
+  width: 580px;
+  height: 580px;
+}
+#about-section {
+  padding: 10px;
+  font-size: 15px;
+  line-height: 2.1;
+}
+#about-section {
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css.css">
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+      <img class="logo" src="D:\HTML\pagina luna\fotos\100x1000.png" alt="Logo">
+      <div class="menu">
+        <div id="about-section" style="display: none;">
+          <h2>Sobre mí</h2>
+          <p>Mi nombre es Elias Joaquin Prieto y tengo 20 años de edad. Mi experiencia laboral se ha desarrollado principalmente en el área de Help Desk, donde he adquirido habilidades y conocimientos valiosos para desempeñarme en el campo de la tecnología. Actualmente, estoy cursando un Certificado en Investigación en Cibercrimen y Ciberseguridad en la Universidad Siglo 21, lo que me ha permitido ampliar mis conocimientos en esta área de gran importancia en la actualidad.
+            Además, he completado 4 cursos en la plataforma Udemy, uno de ellos certificado, lo que demuestra mi interés y compromiso por seguir aprendiendo y mejorando mis habilidades. Poseo conocimientos intermedios en lenguajes de programación como HTML y CSS y tengo experiencia en el uso de software actual para el ámbito laboral, incluyendo sistemas de ticketeras, inteligencia artificial y el paquete Office.
+            En mis anteriores trabajos he recibido buenas referencias por mi desempeño y compromiso con mi labor. Siempre proporciono contactos en las entrevistas para que puedan verificar mi experiencia y habilidades.</p>
+        </div>
+        <div id="login-form" style="display: none;">
+          <form>
+            <label for="username"><img src="fotos/gmail.png" alt="Email"> Email:</label>
+  <input type="text" id="username" name="username"><br><br>
+  <label for="password"><img src="fotos/usuario.png" alt="Contraseña"> Contraseña:</label>
+  <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Iniciar sesión">
+          </form>
+        </div>
+        <button>Home</button>
+        <button class="about-button" onclick="showAboutSection()">About</button>
+        <a href="services.html"><button>Services</button></a>
+        <a href="https://www.linkedin.com/in/elias-prieto-51b679239/" target="_blank"><button>Contact</button></a>
+        <button class="login-button" onclick="toggleLoginForm()">Login</button>
+      </div>
+    </div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <script src="java.js"></script>
+  </body>
+  </html>
